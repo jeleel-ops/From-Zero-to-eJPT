@@ -1,26 +1,21 @@
-# From Zero to eJPT - 30 Day Journey
-> From complete beginner to eJPT certified penetration tester.
 
-**Author:** Jeleel Adegbenro | Lagos, NG
-**LinkedIn:** https://www.linkedin.com/in/jeleel-adegbenro-292160101
-**Goal:** eJPT in 30 Days
+# From-Zero-to-eJPT - 100 Days of Cyber
 
-## Progress
-| Day | Topic | Port | Result |
-|-----|-------|------|--------|
-| Day 5 | DistCC CVE-2004-2687 | 3632 | daemon shell ✅ |
-| Day 6 | Samba usermap_script CVE-2007-2447 | 445 | ROOT! ✅ |
-| Day 7 | vsftpd | 21 | ⏳ Next |
+Documenting my journey from zero to eJPT certification. Hands-on labs, exploits, and writeups.
 
-## Lab Setup
-- Attacker: Kali Linux
-- Target: Metasploitable 2 (192.168.56.101)
-- Tools: Nmap, Metasploit, smbclient
+## Progress Tracker
+
+| Day | Topic | Status | Writeup |
+|-----|-------|--------|---------|
+| Day-06 | Samba CVE-2007-2447 | ✅ Done | [View](./Day-06-Samba-CVE-2007-2447.md) |
+| Day-07 | VSFTPD Backdoor RCE | ✅ Done | [View](./Day-7-VSFTPD-Backdoor-RCE.md) |
+| Day-08 | Samba Exploit - Root Shell | ✅ Done | [View](./Day-08-Samba-Exploit/) |
+| Day-09 | Coming next... | 🔜 Next | - |
 
 ## Structure
-- Nmap scans + SMB enumeration
-- Exploitation steps
-- Proof of root
-- Lessons learned
+Each Day folder contains:
+- README.md (steps, commands, learning)
+- Proof screenshots (whoami, root)
 
-*For educational purposes - Ethical Hacking only*
+---
+*Started: Oct 2025 | Goal: eJPT Certified*
