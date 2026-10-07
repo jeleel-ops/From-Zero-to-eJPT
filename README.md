@@ -10,7 +10,7 @@ Documenting my journey from zero to eJPT certification. Hands-on labs, exploits,
 | Day-06 | Samba CVE-2007-2447 | ✅ Done | [View](./Day-06-Samba-CVE-2007-2447.md) |
 | Day-07 | VSFTPD Backdoor RCE | ✅ Done | [View](./Day-7-VSFTPD-Backdoor-RCE.md) |
 | Day-08 | Samba Exploit - Root Shell | ✅ Done | [View](./Day-08-Samba-Exploit/) |
-| Day-09 | NFS-ROOT-no_root_squash | euid=0(root) |   32-bit-fix ✅ Done|
+| Day-09 | NFS-ROOT-no_root_squash | 32-bit-fix ✅ Done |
 
 ## Structure
 Each Day folder contains:
