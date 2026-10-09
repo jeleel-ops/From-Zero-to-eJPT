@@ -1,3 +1,4 @@
+![100 Days of Cyber Roadmap](IMG-20261009-WA4075.jpg)
 # From-Zero-to-eJPT - 100 Days of Cyber
 
 Documenting my journey from zero to eJPT certification. Hands-on labs, exploits, and writeups.
