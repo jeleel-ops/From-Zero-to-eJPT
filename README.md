@@ -11,7 +11,7 @@ Documenting my journey from zero to eJPT certification. Hands-on labs, exploits,
 | Day-07 | VSFTPD Backdoor RCE | ✅ Done | [View](./Day-7-VSFTPD-Backdoor-RCE.md) |
 | Day-08 | Samba Exploit - Root Shell | ✅ Done | [View](./Day-08-Samba-Exploit/) |
 | Day-09 | NFS-ROOT-no_root_squash | ✅ Done | [View](./Day-09-NFS-NoRootSquash/) |
-
+| Day-10 | VSFTPD-Backdoor | ✅ Done | [view](./Day-10-VSFTPD-Backdoor/). |
 ## Structure
 Each Day folder contains:
 - README.md (steps, commands, learning)
